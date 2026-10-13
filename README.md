@@ -16,7 +16,7 @@
 🧭 Embeddings and search by meaning, in DuckDB  
 💬 Retrieval-augmented generation, with every claim traced to a source  
 🧱 Structured extraction with schemas  
-🔍 Verifying output from models you did not build  
+🔍 Judging when a model is wrong, and which tool to reach for  
 🦉 Become familiar with how climate change enters U.S. endangered species law  
 
 ## 📖 Content Overview
@@ -26,19 +26,23 @@
 
 When the U.S. government lists a species under the Endangered Species Act, it publishes its
 reasoning in the Federal Register. [Delach et al. (2019)](https://doi.org/10.1038/s41558-019-0620-8)
-read the official documents for all 459 endangered animals by hand and found climate change
-named as a threat for 64% of them, but management actions planned for only 18%.
+read the official documents for all 459 endangered animals by hand and found climate change named
+as a threat for 64% of them, but management actions planned for only 18%.
 
-In this module you read thirty years of final listing rules with code. You climb a ladder of
-tools (regular expressions, a decision model, embeddings, retrieval-augmented generation, and
-structured extraction), each answering a sharper version of one question: *when the
-government protects a species, does it say climate change is why?* Then you reconcile your
+In this module we read thirty years of final listing rules with code and ask whether, and how often,
+the government says climate change is a reason a species needs protection. We then compare our
 answer with Delach et al.'s published per-species data.
 
-Every tool past the first is a model, and every model is sometimes wrong. The question from
-the first module still applies:
+The notebook gives the background, the data, and working connections to a language model, an
+embedding model, and a decision model. It does not give step-by-step instructions. Deciding what the
+question means in practice, guiding your coding agent, and judging when its tools are wrong is the
+work of this module.
 
-> How do I know these numbers are right?
+## What to hand in
+
+- `esa.ipynb`, run from top to bottom.
+- `prompts/`: your conversations with your coding agent, exported as files.
+- An updated README.
 
 ## Data sources
 
