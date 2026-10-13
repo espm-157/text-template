@@ -52,7 +52,7 @@ the first module still applies:
 - [Laya](https://huggingface.co/convaiinnovations/laya), an open-weights decision model,
   served on an NRP GPU for this course
 
-The notebook reads `NRP_TOKEN`, `LAYA_URL` and `LAYA_API_KEY` from the environment. Never put
+The notebook reads your `NRP_TOKEN` and `LAYA_API_KEY` from the environment. Never put
 these in the notebook or commit them.
 
 ## Setup
