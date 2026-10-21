@@ -54,7 +54,7 @@ work of this module.
 - `deepseek-v4-flash` (language model) and `qwen3-embedding` (embeddings), served by the
   [National Research Platform](https://nrp.ai/documentation/userdocs/ai/llm-managed/)
 - [Laya](https://huggingface.co/convaiinnovations/laya), an open-weights decision model,
-  served on an NRP GPU for this course
+  hosted for this course at <https://laya.carlboettiger.info>
 
 The notebook reads your `NRP_TOKEN` and `LAYA_API_KEY` from the environment. Never put
 these in the notebook or commit them.
