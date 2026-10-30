@@ -3,7 +3,7 @@ name: Notebook check
 
 jobs:
   check:
-    name: validate notebooks
+    name: validate notebooks and requirements
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -11,4 +11,5 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install nbformat
+      - run: pip install -r requirements.txt
       - run: python .github/check_notebooks.py

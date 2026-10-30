@@ -64,6 +64,10 @@ these in the notebook or commit them.
 Environment setup, GitHub authentication, and language model configuration are covered on
 the [course website](https://espm-157.carlboettiger.info/).
 
+The first cell of `esa.ipynb` installs the packages listed in `requirements.txt`, which are not
+all in the DataHub image. Run it each time you start a new server. The
+[course website](https://espm-157.carlboettiger.info/python-packages) explains how it works.
+
 GitHub Actions runs a lightweight check on every push (the notebook is valid, every code cell
 parses, and no credentials are committed). It does not run the notebook or call any model.
 
